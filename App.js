@@ -1,9 +1,14 @@
 import React from 'react'
+import Top from './src/components/Top'
+import Header from './src/components/Header'
 
 const App = () => {
 
     return(
-        <h1>Milo Rastgoo</h1>
+        <>
+            <Top />
+            <Header />
+        </>
     )
 }
 
