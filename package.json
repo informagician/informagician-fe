@@ -1,0 +1,23 @@
+{
+  "name": "informagician-fe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/informagician/informagician-fe.git",
+  "author": "Milo Rastgoo <msrastgoo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "node-sass": "^4.14.1",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "dev": "parcel -p 3000 watch index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4"
+  }
+}
