@@ -1,24 +1,51 @@
-#app {
+.container {
     width: 960px;
     margin: 0 auto;
 }
 
-.top {
+.container {
     padding: 2rem 0;
     display: flex;
     justify-content: space-between;
+
+    .logo {
+
+        display: flex;
+        flex-direction: row;
+
+
+        img {
+            height: 3rem;
+            width: auto;
+            align-self: center;
+        }
+    }
 }
 
 nav {
     display: flex;
     justify-content: space-between;
 
-    li {
-        list-style: none;
+    a {
         margin-left: 2rem;
+        text-decoration: none;
     }
 }
 
 h1 {
     font-size: 1.6rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #efefef;
+    min-height: 100px;
+    border-top: 1px solid #ddd;
+
+    .container {
+        width: 960px;
+        margin:0 auto;
+    }
 }

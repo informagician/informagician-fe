@@ -6,8 +6,10 @@ const Top = () => {
 
     return(
         <div className="top">
-            <Logo />
-            <Nav />
+            <div className="container">
+                <Logo />
+                <Nav />
+            </div>
         </div>
     )
 }
