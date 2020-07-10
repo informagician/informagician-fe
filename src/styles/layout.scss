@@ -83,11 +83,17 @@ header {
 
 section.about {
     
-    height: calc(100vh - 10rem);
+    height: calc(100vh - 15rem);
     background-color: #fefefe;
     border-top:1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    padding: 3rem 0;
+    padding: 5rem 0;
+
+
+    img {
+        width: 20rem;
+        height: auto;
+    }
 }
 
 footer {

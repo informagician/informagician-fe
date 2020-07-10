@@ -6,6 +6,7 @@ const About = () => {
         <section className="about">
             <div className="container">
                 <h2>About Me</h2>
+                <img src="./assets/milo-rastgoo.png" />
             </div>
         
         </section>
