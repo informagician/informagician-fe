@@ -4,7 +4,7 @@
 }
 
 .top {
-
+    visibility: hidden;
     position: fixed;
     top:0;
     width: 100%;
@@ -30,6 +30,7 @@
 }
 
 #scrolled {
+    visibility: visible;
     background-color: #FEFEFE;
     border-bottom: 1px solid #eee;
 }
@@ -50,15 +51,43 @@ h1 {
 
 h2 {
     font-size: 2rem;
-    padding: 1.5rem 0;
 }
 
 header {
+
+    display: flex;
     width: 960px;
     margin: 0 auto;
+    height: 100vh;
+    justify-content: space-around;
+
+    .jumbo {
+        align-self: center;
+        display: flex;
+    }
+
+    .jumbo-text {
+        
+        h2,p {
+            margin: 1rem 0;
+        }
+    }
+
+    img {
+        width: 6rem;
+        height: auto;
+        margin-right: 2rem;
+    }
+    
+}
+
+section.about {
+    
+    height: calc(100vh - 10rem);
+    background-color: #fefefe;
+    border-top:1px solid #ddd;
+    border-bottom: 1px solid #ddd;
     padding: 3rem 0;
-    height: 1000px;
-    margin-top: 10rem;
 }
 
 footer {

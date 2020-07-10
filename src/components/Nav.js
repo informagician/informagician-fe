@@ -5,10 +5,11 @@ const Nav = () => {
 
     return(
         <nav>
-            <NavLink to='/'>Home</NavLink>
+            {/* <NavLink to='/'>Home</NavLink>
             <NavLink to='/about'>About Me</NavLink>
             <NavLink to='/project'>Projects</NavLink>
-            <NavLink to='/contact'>Contact</NavLink>
+            <NavLink to='/contact'>Contact</NavLink> */}
+            <a>About Me</a>
         </nav>
     )
 }

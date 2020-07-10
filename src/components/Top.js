@@ -6,14 +6,10 @@ const Top = () => {
 
     const [ scroll, setScroll] = useState(false)
 
-    
-
-    
-
     useEffect(() => {
         window.addEventListener('scroll',() => {
 
-            if(window.pageYOffset > 100) {
+            if(window.pageYOffset > 200) {
                 setScroll(true)
                 console.log(window.pageYOffset)
             } else {

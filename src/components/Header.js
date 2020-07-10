@@ -4,8 +4,15 @@ const Header = () => {
 
     return(
         <header>
-            <h2>Hi! I'm Milo.</h2>
-            <p className="jumbo">I'm a Full-Stack Web Developer. In my past life I was a Network Engineer. </p>
+            <div className="jumbo">
+                <div>
+                    <img src="./assets/milo-rastgoo-avatar.png" />
+                </div>
+                <div className="jumbo-text">
+                    <h2>Hi! I'm Milo.</h2>
+                    <p>I'm a Full-Stack Web Developer.</p>
+                </div>
+            </div>
         </header>
     )
 }
