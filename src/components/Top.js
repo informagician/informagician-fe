@@ -6,21 +6,23 @@ const Top = () => {
 
     const [ scroll, setScroll] = useState(false)
 
-    window.addEventListener('scroll',()=>{
-        
-        if(window.scrollTop > 0) {
-            setScroll(true)
-            console.log('TRUE')
-        }
-    })
-
-    // useEffect(() => {
-    //     if (document.body.scrollTop != 0){
-    //         setScroll(true)
-    //         console.log('TRUE')
-    //     }
-    // },[])
     
+
+    
+
+    useEffect(() => {
+        window.addEventListener('scroll',() => {
+
+            if(window.pageYOffset > 100) {
+                setScroll(true)
+                console.log(window.pageYOffset)
+            } else {
+                setScroll(false)
+            }
+        })
+    },[])
+    
+    console.log(scroll)
 
     return(
         <div className="top" id={scroll ? 'scrolled' : null}>

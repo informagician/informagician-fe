@@ -27,11 +27,11 @@
             }
         }
     }
+}
 
-    #scrolled {
-        background-color: #eee;
-        border-bottom: 1px solid #ddd;
-    }
+#scrolled {
+    background-color: #FEFEFE;
+    border-bottom: 1px solid #eee;
 }
 
 nav {
@@ -58,6 +58,7 @@ header {
     margin: 0 auto;
     padding: 3rem 0;
     height: 1000px;
+    margin-top: 10rem;
 }
 
 footer {
