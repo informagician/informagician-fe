@@ -11,14 +11,14 @@ const Top = () => {
 
             if(window.pageYOffset > 200) {
                 setScroll(true)
-                console.log(window.pageYOffset)
+                // console.log(window.pageYOffset)
             } else {
                 setScroll(false)
             }
         })
     },[])
     
-    console.log(scroll)
+    // console.log(scroll)
 
     return(
         <div className="top" id={scroll ? 'scrolled' : null}>

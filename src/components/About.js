@@ -8,11 +8,12 @@ const About = () => {
                 <h2>About Me</h2>
                 <div className="content">
                     <div className="text">
-                        <p>My name is Milo Rastgoo, I am a Full-Stack Web Developer with experiece as Network Specialist and IT Project Manager.</p>
+                        <p>I am a Full-Stack Web Developer with experiece as Network Specialist and IT Project Manager.</p>
                         <p>I'm interested in solving problems and making things, either using code or collection of hardware tools!</p>
                     </div>
                     <img src="./assets/milo-rastgoo.png" />
                 </div>
+                
             </div>
         </section>
     )

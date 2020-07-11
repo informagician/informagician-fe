@@ -3,10 +3,37 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Top from './src/components/Top'
 import Header from './src/components/Header'
 import About from './src/components/About'
+import Project from './src/components/Project'
 import Contact from './src/components/Contact'
 import Footer from './src/components/Footer'
 
 const App = () => {
+
+    // const [ pageHeight, setPageHeight ] = useState()
+
+    // useEffect(() => {
+    //     window.addEventListener('resize',() => {
+
+    //         // if(window.pageYOffset > 200) {
+    //         //     setScroll(true)
+    //         //     // console.log(window.pageYOffset)
+    //         // } else {
+    //         //     setScroll(false)
+    //         // }
+    //         const height = window.innerHeight
+    //         console.log(window.innerHeight)
+    //         setPageHeight(height)
+    //     })
+    // },[])
+
+    // useEffect(() => {
+    //     window.addEventListener('scroll', () => {
+
+
+    //     })
+    // })
+
+    
 
     return(
         <>
@@ -15,7 +42,7 @@ const App = () => {
                 {/* <Route exact path='/'> */}
                     <Header />
                     <About />
-                    {/* <Projects /> */}
+                    <Project />
                 {/* </Route> */}
                 {/* <Route path='/contact'> */}
                     {/* <Contact /> */}
