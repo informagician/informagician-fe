@@ -132,6 +132,13 @@ section.project {
     }
 }
 
+section.contact {
+    height: calc(100vh - 15rem);
+    background-color: #48cae4;
+    padding: 5rem 0;
+    display: flex;
+}
+
 .card {
     width: 32%;
     height: 10rem;

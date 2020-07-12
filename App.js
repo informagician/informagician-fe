@@ -43,6 +43,7 @@ const App = () => {
                     <Header />
                     <About />
                     <Project />
+                    <Contact />
                 {/* </Route> */}
                 {/* <Route path='/contact'> */}
                     {/* <Contact /> */}
