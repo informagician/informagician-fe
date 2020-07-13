@@ -137,6 +137,34 @@ section.contact {
     background-color: #48cae4;
     padding: 5rem 0;
     display: flex;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+
+        input {
+            margin: 0.5rem 0;
+            height: 2rem;
+            border-radius: 3px;
+            border:1px solid #00b4d8;
+            padding: 0 1rem;
+        }
+
+        textarea {
+            margin: 0.5rem 0;
+            height: 10rem;
+            border-radius: 3px;
+            border:1px solid #00b4d8;
+            padding: 1rem 1rem;
+        }
+
+        button {
+            width: 6rem;
+            height: 2rem;
+
+        }
+    }
 }
 
 .card {
