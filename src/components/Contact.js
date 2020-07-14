@@ -11,9 +11,9 @@ const Contact = () => {
             <div className="container">
                 <h2>Contact Page</h2>
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    <input name="name" defaultValue="Your Name" ref={register} />
-                    <input name="email" defaultValue="Email Address" ref={register} />
-                    <textarea defaultValue="Message">
+                    <input name="name" placeholder="Your Name" ref={register} />
+                    <input name="email" placeholder="Email Address" ref={register} />
+                    <textarea placeholder="Message">
 
                     </textarea>
                     <button>Send</button>
