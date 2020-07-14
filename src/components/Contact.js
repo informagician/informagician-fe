@@ -7,7 +7,7 @@ const Contact = () => {
     const onSubmit = data => console.log(data)
 
     return(
-        <section className="contact">
+        <section className="contact" id="contact">
             <div className="container">
                 <h2>Contact Page</h2>
                 <form onSubmit={handleSubmit(onSubmit)}>

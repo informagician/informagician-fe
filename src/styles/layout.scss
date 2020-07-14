@@ -19,11 +19,19 @@
         .logo {
             display: flex;
             flex-direction: row;
+            color: #fff;
 
             img {
                 height: 3rem;
                 width: auto;
                 align-self: center;
+            }
+        }
+
+        nav {
+
+            a {
+                color:#fff;
             }
         }
     }
@@ -32,7 +40,8 @@
 #scrolled {
     visibility: visible;
     background-color: #FEFEFE;
-    border-bottom: 1px solid #eee;
+    background-color: #023e8a;
+    border-bottom: 1px solid #03045E;
 }
 
 nav {
@@ -92,9 +101,11 @@ header {
 section.about {
     
     height: calc(100vh - 15rem);
+    height: 100vh;
     background-color: #ade8f4;
-    padding: 5rem 0;
+    padding: 10rem 0;
     display: flex;
+    box-sizing: border-box;
 
     .container {
         display: flex;
@@ -135,9 +146,11 @@ section.about {
 
 section.project {
     height: calc(100vh - 15rem);
+    height: 100vh;
     background-color: #90e0ef;
-    padding: 5rem 0;
+    padding: 10rem 0;
     display: flex;
+    box-sizing: border-box;
 
     .content {
         margin: 2rem 0;
@@ -148,9 +161,11 @@ section.project {
 
 section.contact {
     height: calc(100vh - 15rem);
+    height: 100vh;
     background-color: #48cae4;
-    padding: 5rem 0;
+    padding: 10rem 0;
     display: flex;
+    box-sizing: border-box;
 
     form {
         display: flex;
@@ -214,8 +229,6 @@ section.contact {
 }
 
 footer {
-    position: relative;
-    bottom: 0;
     width: 100%;
     background-color: #efefef;
     min-height: 100px;
@@ -225,4 +238,18 @@ footer {
         width: 960px;
         margin:0 auto;
     }
+}
+
+.to {
+    position: fixed;
+    right: 5rem;
+    bottom: 5rem;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    background-color:rgba($color: #023E8A, $alpha: 0.7);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

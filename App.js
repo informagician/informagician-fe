@@ -48,7 +48,6 @@ const App = () => {
                 {/* <Route path='/contact'> */}
                     {/* <Contact /> */}
                 {/* </Route> */}
-                <Footer/>
             {/* </Router> */}
         </>
     )

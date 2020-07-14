@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
 
     return(
-        <header>
+        <header id="home">
             <div className="container">
                 <div className="jumbo">
                     <div>

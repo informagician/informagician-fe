@@ -9,7 +9,9 @@ const Nav = () => {
             <NavLink to='/about'>About Me</NavLink>
             <NavLink to='/project'>Projects</NavLink>
             <NavLink to='/contact'>Contact</NavLink> */}
-            <a>About Me</a>
+            <a href="#about">About Me</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
     )
 }

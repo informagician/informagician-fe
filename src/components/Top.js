@@ -26,6 +26,11 @@ const Top = () => {
                 <Logo />
                 <Nav />
             </div>
+            {scroll ? (
+                <a href="#home">
+                    <div className="to">TOP</div>
+                </a>
+            ) : null}
         </div>
     )
 }
