@@ -40,6 +40,7 @@ const About = () => {
                                 </svg>
                                 <h4>Redux</h4>
                             </div>
+                            
                         </div>
                         <div className="col">
                             <div className="skill">
@@ -53,6 +54,10 @@ const About = () => {
                             <div className="skill">
                                 <i class="devicon-sass-original colored"></i>
                                 <h4>SASS/LESS</h4>
+                            </div>
+                            <div className="skill">
+                            <i class="devicon-electron-original colored"></i>
+                                <h4>Electron</h4>
                             </div>
                         </div>
                         <div className="col">

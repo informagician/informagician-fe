@@ -10,6 +10,7 @@ const Contact = () => {
         <section className="contact" id="contact">
             <div className="container">
                 <h2>Contact Page</h2>
+                <p>Reach out to me by email: hi[at]informagician.com or use the form below:</p>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <input name="name" placeholder="Your Name" ref={register} />
                     <input name="email" placeholder="Email Address" ref={register} />
