@@ -21,7 +21,7 @@ const About = () => {
                     <div className="toolbox">
                         <div className="col">
                             <div className="skill">
-                                <i class="devicon-python-plain"></i>
+                                <i className="devicon-python-plain"></i>
                                 <h4>Python</h4>
                             </div>
                             <div className="skill">
@@ -31,7 +31,7 @@ const About = () => {
                                 <h4>JavaScript</h4>
                             </div>
                             <div className="skill">
-                                <i class="devicon-react-original colored"></i>
+                                <i className="devicon-react-original colored"></i>
                                 <h4>React</h4>
                             </div>
                             <div className="skill">
@@ -44,33 +44,33 @@ const About = () => {
                         </div>
                         <div className="col">
                             <div className="skill">
-                                <i class="devicon-html5-plain colored"></i>
+                                <i className="devicon-html5-plain colored"></i>
                                 <h4>HTML</h4>
                             </div>
                             <div className="skill">
-                                <i class="devicon-css3-plain colored"></i>
+                                <i className="devicon-css3-plain colored"></i>
                                 <h4>CSS</h4>
                             </div>
                             <div className="skill">
-                                <i class="devicon-sass-original colored"></i>
+                                <i className="devicon-sass-original colored"></i>
                                 <h4>SASS/LESS</h4>
                             </div>
                             <div className="skill">
-                            <i class="devicon-electron-original colored"></i>
+                            <i className="devicon-electron-original colored"></i>
                                 <h4>Electron</h4>
                             </div>
                         </div>
                         <div className="col">
                             <div className="skill">
-                                <i class="devicon-mysql-plain-wordmark colored"></i>
+                                <i className="devicon-mysql-plain-wordmark colored"></i>
                                 <h4>MySQL</h4>
                             </div>
                             <div className="skill">
-                                <i class="devicon-postgresql-plain colored"></i>
+                                <i className="devicon-postgresql-plain colored"></i>
                                 <h4>PostgreSQL</h4>
                             </div>
                             <div className="skill">
-                            <i class="empty"></i>
+                            <i className="empty"></i>
                                 <h4>SQLite</h4>
                             </div>
                         </div>
@@ -82,11 +82,11 @@ const About = () => {
                                 <h4>RPM/APT Linux</h4>
                             </div>
                             <div className="skill">
-                            <i class="devicon-amazonwebservices-original colored"></i>
+                            <i className="devicon-amazonwebservices-original colored"></i>
                                 <h4>AWS/CloudStack/VMware</h4>
                             </div>
                             <div className="skill">
-                            <i class="empty"></i>
+                            <i className="empty"></i>
                                 <h4>TCP/IP R&S</h4>
                             </div>
                         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = () => {
+const Header = props => {
 
     return(
         <header id="home">
@@ -14,6 +14,13 @@ const Header = () => {
                         <p>I am a Full-Stack Web Developer.</p>
                     </div>
                 </div>
+                {props.scroll ? null : (
+                <div className="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                )}
             </div>
         </header>
     )

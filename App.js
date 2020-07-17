@@ -1,54 +1,32 @@
-import React from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
 import Top from './src/components/Top'
 import Header from './src/components/Header'
 import About from './src/components/About'
 import Project from './src/components/Project'
 import Contact from './src/components/Contact'
-import Footer from './src/components/Footer'
 
 const App = () => {
 
-    // const [ pageHeight, setPageHeight ] = useState()
+    const [ scroll, setScroll] = useState(false)
 
-    // useEffect(() => {
-    //     window.addEventListener('resize',() => {
+    useEffect(() => {
+        window.addEventListener('scroll',() => {
 
-    //         // if(window.pageYOffset > 200) {
-    //         //     setScroll(true)
-    //         //     // console.log(window.pageYOffset)
-    //         // } else {
-    //         //     setScroll(false)
-    //         // }
-    //         const height = window.innerHeight
-    //         console.log(window.innerHeight)
-    //         setPageHeight(height)
-    //     })
-    // },[])
+            if(window.pageYOffset > 200) {
+                setScroll(true)
+            } else {
+                setScroll(false)
+            }
+        })
+    },[])
 
-    // useEffect(() => {
-    //     window.addEventListener('scroll', () => {
-
-
-    //     })
-    // })
-
-    
-
-    return(
+    return (
         <>
-            {/* <Router> */}
-            <Top />
-                {/* <Route exact path='/'> */}
-                    <Header />
-                    <About />
-                    <Project />
-                    <Contact />
-                {/* </Route> */}
-                {/* <Route path='/contact'> */}
-                    {/* <Contact /> */}
-                {/* </Route> */}
-            {/* </Router> */}
+            <Top scroll={scroll} setScroll={setScroll} />
+            <Header scroll={scroll} />
+            <About />
+            <Project />
+            <Contact />
         </>
     )
 }

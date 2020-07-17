@@ -1,32 +1,22 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Logo from './Logo'
 import Nav from './Nav'
 
-const Top = () => {
+const Top = props => {
 
-    const [ scroll, setScroll] = useState(false)
+    
 
-    useEffect(() => {
-        window.addEventListener('scroll',() => {
-
-            if(window.pageYOffset > 200) {
-                setScroll(true)
-                // console.log(window.pageYOffset)
-            } else {
-                setScroll(false)
-            }
-        })
-    },[])
+    
     
     // console.log(scroll)
 
     return(
-        <div className="top" id={scroll ? 'scrolled' : null}>
+        <div className="top" id={props.scroll ? 'scrolled' : null}>
             <div className="container">
                 <Logo />
                 <Nav />
             </div>
-            {scroll ? (
+            {props.scroll ? (
                 <a href="#home">
                     <div className="to">TOP</div>
                 </a>
